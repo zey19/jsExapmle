@@ -24,7 +24,7 @@ game_button.onclick= function(e)
     numberOfClicks++;
     if(numberOfClicks!=0 && numberOfClicks%3 ==0)
     {
-        window.alert("you can go "+(numberOfClicks/3)+1  +"level");
+        window.alert("you can go "+((numberOfClicks/3)+1)  +"level");
         milisecond =milisecond-100;
 
     }
